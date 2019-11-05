@@ -1,37 +1,23 @@
-body, ul, ol, dl, dd, p, h1, h2, h3, h4, h5, h6, input, textarea, hr, div, em, strong {
-    margin: 0;
-    padding: 0;
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
+    margin:0;
+    padding:0;
 }
-
-body {
+body{
     font-family: "微软雅黑";
 }
-
-ul, ol {
+ul,ol{
     list-style-type: none;
 }
-
-a {
+a{
     text-decoration: none;
 }
-
-img {
+img{
     border: none;
 }
-
-after {
-    content: "";
-    display: block;
-    clear: both;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
-}
-
-html {
+after{content:"";display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+html{
     font-size: 26.67vw;
 }
-
 .one{
     width: 100%;
     height: 0.25rem;
@@ -42,39 +28,13 @@ html {
     height: 0.25rem;
     top: 0;
 }
-.two{
-    width: 100%;
-    display: flex;
-    /* justify-content: space-between; */
-    justify-content: space-around;
-    background: rgb(245, 245, 245);
-    height: 0.35rem;
 
-}
-.three{
-    width: 100%;
-    display: flex;
-    /* justify-content: space-between; */
-    justify-content: space-around;
-    background: rgb(250, 250, 250);
-    height: 1rem;
-    border-bottom: 1px solid rgb(205, 205, 205);
-    border-top: 1px solid rgb(205, 205, 205);
-}
+
 .twoimg2{
     width: 8%;
     height: 0.25rem;
 }
-.twop1{
-    font-size: 0.18rem;
-    font-weight: 600;
-    position: relative;
-    left: 0.43rem;
-}
-.twop2{
-    font-size: 0.18rem;
-    color:rgb(147, 147, 147)
-}
+
 .twoimg3{
     width: 3%;
     height: 0.17rem;
@@ -98,7 +58,6 @@ html {
     display: flex;
 }
 
-.therr{}
 .therr a{
     font-size: 0.12rem;
     height: 0.02rem;
@@ -108,20 +67,19 @@ html {
     width: 2.8rem;
 
 }
-.six-1-txt1{
+
+
+.text{
     font-size: 0.15rem;
-    color: rgb(248, 103, 19);
-    height: 0.2rem;
-    position: relative;
-    top: 14px;
+    margin-left: 20px;
+
 }
-
-
-
 .footer{
     display: flex;
     width: 100%;
     justify-content: space-around;
+    position: fixed;
+    bottom: 14px;
 }
 .footer img{
     width: 7%;
@@ -132,15 +90,48 @@ html {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    position: fixed;
+    bottom: 0;
 }
 .footer2 a{
     width: 7%;
     font-size: 0.11rem;
     padding-top: -34px;
     margin-top: -1px;
-    margin-left: 3px;
+    margin-left: 8px;
     color: black;
+
 }
 a:hover{
     color: lightpink;
+}
+
+
+
+.zjimg{
+    width: 18px;
+}
+.zja{
+    font-size: 0.13rem;
+    color: #77777c;
+    /* margin-top: -9px; */
+    padding-bottom: -6px;
+    background-color: #efefef;
+    position: relative;
+    top: -20px;
+    border-radius: 4px;
+
+    left: 63px;}
+.seex{
+    font-size: 0.13rem;
+    color:rgb(103, 142, 185);
+    background-color: #efefef;
+    display: inline-block;
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 4px;
+
+
 }

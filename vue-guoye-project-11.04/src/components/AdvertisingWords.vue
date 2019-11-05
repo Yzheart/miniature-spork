@@ -15,5 +15,9 @@
 </script>
 
 <style scoped>
+    .text{
+        font-size: 0.15rem;
+        margin-left: 20px;
 
+    }
 </style>

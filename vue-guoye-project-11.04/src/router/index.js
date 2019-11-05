@@ -4,14 +4,15 @@ import HomePage from "../HomePage"
 import Video from "../Video"
 Vue.use(VueRouter)
 
-const routes = [
-    {path:'/HomePage',component:HomePage},
-    {path:'/Video',component:Video},
+let router = new VueRouter({
 
-]
-const router = new VueRouter({
-    routes
+    //路由map集合 path :views component
+    routes:[
+        {path:"/",component:HomePage},
+        {path:"/Video",component:Video},
+    ]
 })
-//
+
+export default router
 
 

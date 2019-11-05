@@ -16,12 +16,14 @@
 // //     }
 // // })
 import Vue from 'vue'
-import App from './HomePage.vue'
+import app from './app.vue'
 import MinUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import router from './router'
 Vue.use(MinUI)
 Vue.config.productionTip = false
 
 new Vue({
-    render: h => h(App),
+   router,
+    render: h => h(app),
 }).$mount('#app')

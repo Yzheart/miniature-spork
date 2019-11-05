@@ -27,5 +27,14 @@
 </script>
 
 <style scoped>
-
+    .six{
+        display: flex;
+        height: 64px;
+    }
+    .six-1{
+        display: flex;
+    }
+    .six-1-img1{
+        width: 14%;
+        margin: 0.1rem;}
 </style>
