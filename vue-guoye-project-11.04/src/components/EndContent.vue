@@ -14,7 +14,7 @@
     </div>
     <div class="footer2">
         <a href="#">微博</a>
-        <a href="#">视频</a>
+        <a @click="run">视频</a>
 
         <a href="#">发现</a>
 
@@ -30,7 +30,12 @@
 
 <script>
     export default {
-        name: "EndContent"
+        name: "EndContent",
+        methods:{
+            run(){
+                this.$router.push({path:'/Video'})
+            }
+        }
     }
 </script>
 
