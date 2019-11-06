@@ -5,7 +5,7 @@
         <img class="inpimg" src="../assets/Video/2.png" alt="">
 
         <img class="inpimg" src="../assets/Video/3.png" alt="">
-        <img class="b" src="../assets/Video/13.png" alt="">
+
 
 
     </div>

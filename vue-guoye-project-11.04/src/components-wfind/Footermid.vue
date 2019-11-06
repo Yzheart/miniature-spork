@@ -44,17 +44,14 @@
         color: white;
     }
     .fbtn{
-        /* margin-right: 81px; */
-        position: absolute;
         border-radius: 0.15rem;
         border: 0;
         border: 1px solid rgb(255, 149, 39);
         background-color: white;
-        /* top: 249px; */
-        left: 2.84rem;
-        width: 0.55rem;
+        width: 0.7rem;
         height: 0.28rem;
-        bottom: 0.89rem;
+        margin-left: -110px;
+        margin-top: 12px;
     }
     .fbtn span{
         color: rgb(255, 149, 39);
@@ -63,7 +60,8 @@
         display: flex;
     }
     .fsix-1-img1{
-        width: 15%;
+        width: 14%;
+        height: 0.46rem;
         margin: 0.1rem;}
     .fsix-1-img2{
         height: 20px;
@@ -88,12 +86,8 @@
     .ftxt2{
         font-size: 0.12rem;
         color: rgb(147, 147, 147);
-        /* width: 173px; */
         height: 0.2rem;
-        position: absolute;
-        /* top: 2.75rem; */
-        left: 0.76rem;
-        /* letter-spacing: 0.01rem; */
-        bottom: 0.65rem;
+        margin-left: -257px;
+        margin-top: 39px;
     }
 </style>

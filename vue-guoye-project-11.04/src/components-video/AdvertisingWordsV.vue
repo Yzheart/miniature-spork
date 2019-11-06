@@ -36,7 +36,8 @@
     }
     .six-1-img1{
         width: 15%;
-        margin: 0.1rem;}
+        margin: 0.1rem;
+        height: 49px;}
     .six-1-txt11{
         font-size: 0.15rem;
         height: 0.2rem;
@@ -55,7 +56,7 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 2.75rem;
+        top: 2.51rem;
         left: 0.76rem;
         letter-spacing: 0.01rem;
     }
@@ -65,7 +66,7 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 209px;
+        top: 185px;
         left: 15px;
     }
     .txt4{
@@ -74,7 +75,7 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 209px;
+        top: 185px;
         left: 85px;
     }
     .txt5{
@@ -83,7 +84,7 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 209px;
+        top: 185px;
         left: 165px;
     }
     .txt6{
@@ -92,20 +93,18 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 209px;
+        top: 185px;
         left: 230px;
     }
     .btn{
-        /* margin-right: 81px; */
-        position: absolute;
         border-radius: 15px;
         border: 0;
         border: 1px solid rgb(255, 149, 39);
         background-color: white;
-        top: 249px;
-        left: 2.84rem;
-        width: 55px;
+        width: 70px;
         height: 28px;
+        margin-left: -84px;
+        margin-top: 17px;
     }
     .btn span{
         color: rgb(255, 149, 39);

@@ -4,7 +4,7 @@
             微博</a>
         <a @click="run" ><img src="../assets/Find/12.png" alt=""><br>
             视频</a>
-        <a><img src="../assets/13.png" alt=""><br>
+        <a :href="'#/Wfind'"><img src="../assets/13.png" alt=""><br>
             发现</a>
 
         <a><img src="../assets/14.png" alt=""><br>

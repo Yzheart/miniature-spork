@@ -24,7 +24,7 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 140px;
+        top: 116px;
         left: 15px;
     }
     .txt4{
@@ -33,7 +33,7 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 140px;
+        top: 116px;
         left: 85px;
     }
     .txt5{
@@ -42,7 +42,7 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 140px;
+        top: 116px;
         left: 165px;
     }
     .txt6{
@@ -51,7 +51,7 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 140px;
+        top: 116px;
         left: 230px;
     }
     .txt2{
@@ -60,8 +60,8 @@
         /* width: 173px; */
         height: 20px;
         position: absolute;
-        top: 2.02rem;
-        left: 0.76rem;
+        top: 1.76rem;
+        left: 0.73rem;
     }
     .water {
         height: 20px;

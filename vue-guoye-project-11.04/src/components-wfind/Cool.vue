@@ -1,7 +1,7 @@
 <template>
     <div class="inpc">
         <input type="textc" placeholder="大家都在搜:北方都冻得发黑了">
-        <img class="bc" src="../assets/Video/13.png" alt="">
+
 
 
     </div>

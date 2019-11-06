@@ -1,7 +1,6 @@
 <template>
     <div>
 
-        <HelloWorld></HelloWorld>
         <Cool></Cool>
         <Hotf></Hotf>
         <Cloudf></Cloudf>
@@ -15,7 +14,6 @@
 </template>
 
 <script>
-    import HelloWorld from "./components-video/HelloWorld";
     import EndFind from "./components-wfind/EndFind";
     import Cool from "./components-wfind/Cool";
     import Hotf from "./components-wfind/Hotf";
@@ -28,7 +26,7 @@
 
     export default {
         name: "Wfind",
-        components: {Footermid, Middum, Midfzj, Footert, Cloudf, Hotf, Cool, EndFind, HelloWorld,}
+        components: {Footermid, Middum, Midfzj, Footert, Cloudf, Hotf, Cool, EndFind, }
     }
 </script>
 
