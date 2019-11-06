@@ -69,39 +69,8 @@ html{
 }
 
 
-.text{
-    font-size: 0.15rem;
-    margin-left: 20px;
 
-}
-.footer{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    position: fixed;
-    bottom: 14px;
-}
-.footer img{
-    width: 7%;
-    padding-top: -34px;
-    margin-top: -24px;
-}
-.footer2{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    position: fixed;
-    bottom: 0;
-}
-.footer2 a{
-    width: 7%;
-    font-size: 0.11rem;
-    padding-top: -34px;
-    margin-top: -1px;
-    margin-left: 8px;
-    color: black;
 
-}
 a:hover{
     color: lightpink;
 }
@@ -110,28 +79,4 @@ a:hover{
 
 .zjimg{
     width: 18px;
-}
-.zja{
-    font-size: 0.13rem;
-    color: #77777c;
-    /* margin-top: -9px; */
-    padding-bottom: -6px;
-    background-color: #efefef;
-    position: relative;
-    top: -20px;
-    border-radius: 4px;
-
-    left: 63px;}
-.seex{
-    font-size: 0.13rem;
-    color:rgb(103, 142, 185);
-    background-color: #efefef;
-    display: inline-block;
-    width: 130px;
-    height: 25px;
-    text-align: center;
-    line-height: 25px;
-    border-radius: 4px;
-
-
 }

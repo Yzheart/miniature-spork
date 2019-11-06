@@ -19,9 +19,15 @@ import Vue from 'vue'
 import app from './app.vue'
 import MinUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import { Swipe, SwipeItem } from 'mint-ui';
 import router from './router'
 Vue.use(MinUI)
 Vue.config.productionTip = false
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
+import { Popup } from 'mint-ui';
+
+Vue.component(Popup.name, Popup);
 
 new Vue({
    router,

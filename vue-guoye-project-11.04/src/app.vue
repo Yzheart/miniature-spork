@@ -15,6 +15,6 @@
 </script>
 
 <style scoped>
-  @import "components/hi.css";
+  /*@import "components/hi.css";*/
 
 </style>

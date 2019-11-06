@@ -16,7 +16,7 @@
         <a href="#">微博</a>
         <a @click="run">视频</a>
 
-        <a href="#">发现</a>
+        <a  @click="runf">发现</a>
 
         <a href="#">消息</a>
 
@@ -34,6 +34,10 @@
         methods:{
             run(){
                 this.$router.push({path:'/Video'})
+            },
+            runf(){
+                this.$router.push({path:'/Wfind'})
+
             }
         }
     }

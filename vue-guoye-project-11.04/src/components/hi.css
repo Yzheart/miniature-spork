@@ -126,12 +126,15 @@ html {
 .footer img{
     width: 7%;
     padding-top: -34px;
-    margin-top: -24px;
+    margin-top: -14px;
+
 }
 .footer2{
     display: flex;
     width: 100%;
     justify-content: space-around;
+    position: fixed;
+    bottom: 0;
 }
 .footer2 a{
     width: 7%;
