@@ -26,7 +26,6 @@ Vue.config.productionTip = false
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 import { Popup } from 'mint-ui';
-
 Vue.component(Popup.name, Popup);
 
 new Vue({

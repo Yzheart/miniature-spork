@@ -7,10 +7,10 @@
         <a :href="'#/Wfind'"><img src="../assets/13.png" alt=""><br>
             发现</a>
 
-        <a><img src="../assets/14.png" alt=""><br>
+        <a :href="'#/Messages'"><img src="../assets/14.png" alt=""><br>
             消息</a>
 
-        <a><img class="endimg" src="../assets/15.png" alt=""><br>
+        <a :href="'#/MeMe'"><img class="endimg" src="../assets/15.png" alt=""><br>
             我</a>
 
 

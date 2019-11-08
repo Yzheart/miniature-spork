@@ -14,7 +14,6 @@
 
 <script>
     import SmallPortrait from '../components/SmallPortrait.vue'
-    // import SmallPortrait from "./SmallPortrait";
 
     export default {
         name: "HeadPortrait",

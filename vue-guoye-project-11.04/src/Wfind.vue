@@ -9,6 +9,7 @@
         <Middum></Middum>
         <Footermid></Footermid>
         <EndFind></EndFind>
+        <AdvertisingWords></AdvertisingWords>
     </div>
 
 </template>
@@ -22,11 +23,12 @@
     import Midfzj from "./components-wfind/Midfzj";
     import Middum from "./components-wfind/Middum";
     import Footermid from "./components-wfind/Footermid";
+    import AdvertisingWords from "./components/AdvertisingWords";
 
 
     export default {
         name: "Wfind",
-        components: {Footermid, Middum, Midfzj, Footert, Cloudf, Hotf, Cool, EndFind, }
+        components: {AdvertisingWords, Footermid, Middum, Midfzj, Footert, Cloudf, Hotf, Cool, EndFind, }
     }
 </script>
 

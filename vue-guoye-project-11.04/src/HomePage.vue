@@ -6,7 +6,10 @@
         <HeadPortrait></HeadPortrait>
         <AdvertisingWords></AdvertisingWords>
         <AdvertisingImages></AdvertisingImages>
+        <HeadPortrait></HeadPortrait>
+        <AdvertisingWords></AdvertisingWords>
         <EndFind></EndFind>
+        <AdvertisingImages></AdvertisingImages>
 
     </div>
 
